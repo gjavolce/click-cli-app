@@ -1,0 +1,26 @@
+[project]
+name = "click-cli-app"
+version = "0.1"
+description = "null"
+readme = "README.md"
+authors = [{name = "null"}]
+license = {text = "Apache-2.0"}
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "click"
+]
+
+[project.urls]
+Homepage = "https://github.com/gjavolce/click-cli-app"
+Changelog = "https://github.com/gjavolce/click-cli-app/releases"
+Issues = "https://github.com/gjavolce/click-cli-app/issues"
+CI = "https://github.com/gjavolce/click-cli-app/actions"
+
+[project.scripts]
+click-cli-app = "click_cli_app.cli:cli"
+
+[project.optional-dependencies]
+test = ["pytest"]
